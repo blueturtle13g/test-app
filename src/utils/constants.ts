@@ -18,8 +18,5 @@ export const REDUCER_TYPES = {
   UPDATE_BASKET: 'updateBasket',
 };
 
-export const CATEGORIES_WIDTH = 490;
 export const NUMBER_OF_CATEGORIES = 4;
-
-export const SUBCATEGORIES_WIDTH = 500;
 export const NUMBER_OF_SUBCATEGORIES = 3;

@@ -6,9 +6,7 @@ import { ReactComponent as Tea } from './svgs/tea.svg';
 import './styles.css';
 import {
   SUBCATEGORIES,
-  CATEGORIES_WIDTH,
   NUMBER_OF_CATEGORIES,
-  SUBCATEGORIES_WIDTH,
   NUMBER_OF_SUBCATEGORIES,
 } from '../../utils/constants';
 
@@ -38,9 +36,9 @@ const Header = ({
     [handleSubCategoryChange, activeSubCategory]
   );
   const categoriesLeftPosition =
-    (activeCategory * CATEGORIES_WIDTH) / NUMBER_OF_CATEGORIES + 'px';
+    (activeCategory * window.innerWidth) / NUMBER_OF_CATEGORIES + 'px';
   const subcategoriesLeftPosition =
-    -(activeSubCategory - 1) * (SUBCATEGORIES_WIDTH / NUMBER_OF_SUBCATEGORIES);
+    -(activeSubCategory - 1) * (window.innerWidth / NUMBER_OF_SUBCATEGORIES);
   return (
     <header className="app-header">
       <h1>Demo App</h1>
