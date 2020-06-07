@@ -1,0 +1,9 @@
+.beers-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding-top: 180px;
+  padding-bottom: 60px;
+  overflow-y: hidden;
+  user-select: none;
+}

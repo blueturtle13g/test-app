@@ -1,0 +1,49 @@
+.beer-modal-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+}
+.beer-modal {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: 150px auto;
+  background-color: black;
+  width: 80%;
+  height: 240px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.beer-modal img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.beer-modal button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.beer-modal-details span {
+  margin-top: 5px;
+  display: block;
+  max-height: 40px;
+  overflow: hidden;
+}

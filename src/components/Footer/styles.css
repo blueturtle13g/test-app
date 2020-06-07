@@ -1,0 +1,58 @@
+.app-footer {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+  background-color: black;
+  position: fixed;
+  height: 90vh;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  overflow: hidden;
+  bottom: -83vh;
+  transition: 0.5s;
+}
+
+.app-footer-total {
+  text-align: center;
+}
+
+.app-footer-open {
+  bottom: 0;
+}
+
+.app-footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  cursor: pointer;
+}
+
+.app-footer-header > span {
+  background-color: grey;
+  width: 25px;
+  height: 2px;
+  border-radius: 30%;
+  right: 50%;
+  margin-top: 10px;
+}
+
+.app-footer-header > div {
+  display: flex;
+  align-items: center;
+}
+
+.app-footer-header svg {
+  fill: grey;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.app-footer-title {
+  margin-top: 7px;
+  align-self: center;
+}

@@ -1,0 +1,43 @@
+.basket-item {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.basket-item-price {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  background-color: yellow;
+  padding: 3px;
+  border-radius: 10px;
+  color: black;
+}
+
+.basket-item-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+}
+.basket-item-count > svg {
+  fill: white;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.basket-item img {
+  width: 40px;
+  height: 100px;
+}
+
+.basket-item > svg {
+  cursor: pointer;
+  fill: red;
+  width: 30px;
+  height: 30px;
+}
