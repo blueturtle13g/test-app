@@ -87,7 +87,6 @@ const reducer = (state: StateType, action: ActionType): StateType => {
         basketItems: payload,
       };
     default:
-      console.log('unknown type: ', type);
       return state;
   }
 };
